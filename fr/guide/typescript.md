@@ -1,32 +1,32 @@
 ---
-title: TypeScript Support (EN)
-description: Nuxt.js is shipped with @nuxtjs/typescript module with built-in TypeScript support.
+title: Support de TypeScript
+description: Nuxt.js est livré avec le module @nuxtjs/typescript avec le support natif de TypeScript.
 ---
 
-> A static type system can help prevent many potential runtime errors, especially as applications grow.
+> Un système de typage statique peut aider à prévenir de nombreuses erreurs potentielles à l'exécution, en particulier lorsque les applications grandissent.
 >
-> That's why Nuxt's brand new `@nuxt/typescript` package ships built-in TypeScript tooling support:
-> - Nuxt official type definitions
-> - Autocompletion in IDE
-> - Write everything in TypeScript fashion (`layouts`, `pages`, `components`, `plugins`, `store`)
-> - Runtime TS support (`nuxt.config.ts`, `modules`, `serverMiddlewares`)
-> - TSX Support
+> C'est pourquoi le tout nouveau package `@nuxt/typescript` de Nuxt est livré avec le support natif des outils TypeScript
+> - Les définitions de type officiels Nuxt
+> - Autocompletion dans l'IDE
+> - Tout écrire en TypeScript (`layouts`, `pages`, `components`, `plugins`, `store`)
+> - Support TS à l'éxécution (`nuxt.config.ts`, `modules`, `serverMiddlewares`)
+> - Support TSX.
 
-## Get started
+## Commencer
 
-To use TypeScript in your project, install `@nuxt/typescript` in `devDependencies` and `ts-node` in `dependencies`:
+Pour utiliser TypeScript dans votre projet, installer http://`@nuxt/typescript` dans `devDependencies` et `ts-node` dans `dependencies`:
 
 ```sh
 npm i -D @nuxt/typescript
 npm i ts-node
-# OR
+# OU
 yarn add -D @nuxt/typescript
 yarn add ts-node
 ```
 
 <div class="Alert Alert--gray">
 
-**INFO:** `@nuxt/typescript` ships typescript-related dependencies needed to compile TypeScript files & check types in a separate process.
+**INFO:** `@nuxt/typescript` fournit les dépendances liée à TypeScript nécessaires à la compilation des fichiers TypeScript et des types de contrôle dans un processus séparé.
 
 </div>
 
